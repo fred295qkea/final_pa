@@ -1,10 +1,13 @@
-{% include "_top_logged.html" %}
+{% include "_top.html" %}
 
 <main>
-    {% include "_user_info.html" user=user %}
+    
+    {% include "_user_info.html" %}
+    <div class="d-flex flex-wrap gap-2 ml-5 mb-5">
+        <a href="/edit-profile" class="text-c-white:+1 w-fit-content text-w-semibold text-lg bg-c-gray px-4 py-2 rounded-2">Edit profile</a>
+        <a href="/profile/delete" class="text-c-white w-fit-content text-w-semibold text-lg bg-c-red:+1 px-4 py-2 rounded-2">Delete profile</a>
+    </div>
+    
 </main>
-</body>
-
-</html>
 
 {% include "_bottom.html" %}
