@@ -237,7 +237,7 @@ def validate_uuid4(uuid4 = ""):
     return uuid4
 
 ##############################
-UPLOAD_ITEM_FOLDER = './static/dishes'
+UPLOAD_ITEM_FOLDER = './home/faktafreddy/final_pa/static/dishes'
 ALLOWED_ITEM_FILE_EXTENSIONS = {"png", "jpg", "jpeg", "gif","webp"}
 REGEX_ITEM_IMAGE = r'^.*\.(jpg|jpeg|webp|png|gif)$'
 
